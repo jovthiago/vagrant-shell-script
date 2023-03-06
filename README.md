@@ -8,6 +8,7 @@ Após a criação da máquina, o Vagrant irá acionar o shell como provisionador
 `vagrant.config.vm.provision "shell", path: "provision.sh"`
 
 Como o shell irá executar os comandos do arquivo provision.sh, que irão executar os seguintes aspectos:
+
 1 - Instalar os pacotes vim, curl, telnet, unzip, wget, net-tools, htop e nmap
 
 2 - Definir o nome da máquina
